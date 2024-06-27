@@ -1,9 +1,10 @@
 # deepin universal package identification tool
+[English](./README.md) | [简体中文](./README.zh_CN.md)
 
 ## Table of contents
 - [Overview](#overview)
 - [Tool set](#sets)
-- [package-sbom-tool](#package-sbom-tool)
+  - [package-sbom-tool](#package-sbom-tool)
 - [TODO](#todo)
 - [Quick start](#quick-start)
 
@@ -117,3 +118,6 @@ package-sbom-tool sign -f sbom.spdx.json -prik priv.key
 ```bash
 package-sbom-tool verify -f sbom.spdx.json -s sbom.spdx.json.signed -pubk pub.key
 ```
+
+## License
+deepin-sbom-tools is licensed under GPL-3.0-or-later.

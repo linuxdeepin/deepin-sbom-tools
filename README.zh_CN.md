@@ -1,5 +1,6 @@
 
 # deepin通用软件包标识化工具
+[English](./README.md) | [简体中文](./README.zh_CN.md)
 
 ## 目录
 - [总览](#overview)
