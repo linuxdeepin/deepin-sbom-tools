@@ -1,0 +1,485 @@
+{
+	"spdxVersion": "SPDX-2.3",
+	"dataLicense": "CC0-1.0",
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"name": "sl_5.02-1_amd64",
+	"documentNamespace": "https://www.deepin.org/namespace/package/sl_5.02-1_amd64",
+	"creationInfo": {
+		"creators": [
+			"Tool: deepin-sbom-tools_0.0.8"
+		],
+		"created": "2024-06-27T11:45:08Z"
+	},
+	"packages": [
+		{
+			"name": "sl",
+			"SPDXID": "SPDXRef-PACKAGE-2b002dcf5ebaf365d031276a8f5e55d923723c20",
+			"versionInfo": "5.02-1",
+			"supplier": "Organization: Markus Frosch (lazyfrosch@debian.org)",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": false,
+			"homepage": "https://github.com/mtoyoda/sl",
+			"licenseDeclared": "NOASSERTION",
+			"description": "Correct you if you type `sl' by mistake Sl is a program that can display animations aimed to correct you if you type 'sl' by mistake. SL stands for Steam Locomotive."
+		},
+		{
+			"name": "libc6",
+			"SPDXID": "SPDXRef-DEPEND-64c0ce8aa36ca6940300762504591f0523b5c437",
+			"versionInfo": "2.2.5",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": false
+		},
+		{
+			"name": "libncurses6",
+			"SPDXID": "SPDXRef-DEPEND-249f0a21623370c7caf253e7e08ef2b51c29b63c",
+			"versionInfo": "6",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": false
+		},
+		{
+			"name": "libtinfo6",
+			"SPDXID": "SPDXRef-DEPEND-346a85226273b0c2cafe039ed1bb0d6015de05ca",
+			"versionInfo": "6",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": false
+		}
+	],
+	"files": [
+		{
+			"fileName": "/DEBIAN/control",
+			"SPDXID": "SPDXRef-FILE-4ef341cce591125c592d7046ebbc422d327a4fff",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5890c54ab0df00427e68f93c5f5033e0dedaf5c5"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "acd720d05a764fe36df7cb5342786fc066f8c1c6864d2e4ee4d671aa7bd864bd"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "48134aaafc57df40ad8b14177df7db29"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "3030d2192d711037d2b53ce36ad955e268942b285bb54f6858be9db48dd35f49"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/DEBIAN/md5sums",
+			"SPDXID": "SPDXRef-FILE-ca64f275a5cd0060db7ba3c6faa0d2c55b21ecc7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "7968e3003595554c0f1dc9b8561a1904a8d487b7"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "a1f5895b2d2083df3000df76d17fcaae619c6a8b6d016e8e25360f63e637737c"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "3864d8b4c2fdabb39b5fc8bef4c1427a"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "f284f2a7962881f684ef731e4332570300081533181549378f1f0dd87c8e8caa"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/games/sl",
+			"SPDXID": "SPDXRef-FILE-9878f7d625fb3e019101b9b0923f7bd4f4395941",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "bed042fc78646651820c501b6e5a6043879efb60"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "8170f201f4449f3e1c806ba214d510958aeed864b5d854ad2d3d7311ffa046dc"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "abafee153cc4f440b7e5bd5b67c06174"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "156cd24cee4630affd2d8e9bffc87ee1bf57145ef2531830c7b7c0814b4e2115"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/doc/sl/README",
+			"SPDXID": "SPDXRef-FILE-28bec5519008cd3601dfe04576d5da0aa68d7c6b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5628b6050d8664f2db61440d3c1d80c927b1c121"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "41c936560217fae3bc9a7a96e1115030d19f8321f5424116856c32a8b23d20fa"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "0188bbec554b5908e50379192ca72782"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "e590629f71572997313e78fc8f212553bcd81f25ba9ac773248bf6443492293f"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/doc/sl/README.Debian",
+			"SPDXID": "SPDXRef-FILE-e1ff16673492556da6bfdec6b52e0149138720d3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b3ee5632044bcf633a12b0323143fc87a413d225"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "b1f927a04f1972756fd7321a44dd4bbafc29ce14b442a432862fdc1443aa8487"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "4424ee8f03213f8f62c587ab5b0a55af"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "552c7b93ed9d9d4925f096c0af7386651f340dd2b3fc7a14e82ddd3dbb06d6cc"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/doc/sl/README.jp",
+			"SPDXID": "SPDXRef-FILE-16dd8f5992319635d56819f88f93e6e0924f071f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "13e032dd712d70d2f349a6e914a89ed28cbee04b"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "63435808bc149d43bc9985451ea778f1fddffd97a0fdbeab3e5c4285d0211196"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "fff5e5dcf92e455f2aed025e951a0379"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "cabb2ed4eada65645bff34a2f46d3e637b294eb885e1d5517708c1eb37600054"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/doc/sl/changelog.Debian.gz",
+			"SPDXID": "SPDXRef-FILE-cc2e5f199f0d5cfdf27a35903ee6f17ac56d5465",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "bb5370e91fc6c7820c3fc3f989367f2153444f4e"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "ebaa2699dbbb82c74018193ea868ff0d59070281f7f45d94cf2bf457e1f8c5e5"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "1d88747b530d760a63d2666cc97a8617"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "a3d868a35162c9156764adfdfb622477afda0d5a487936909522a4886e81a812"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/doc/sl/copyright",
+			"SPDXID": "SPDXRef-FILE-c962f2456450b8e821d76586678d3d43f38784d9",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b73ad3464596a867516b54ad9558109bd4962b01"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "d2467b464190d7e2f25703991ab33508fa48052325ad7dc62c4d6e28ad046fe5"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "bfb525092328ec73d7209cb48fe4d592"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "f572c91f622e37ab5fbb2320637c8fb72973fa74a4af3834b45f76451f166552"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/de/man6/LS.6.gz",
+			"SPDXID": "SPDXRef-FILE-ae5ba83b9571fe3228acccbdc7a0cdb4a173a74d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f7b1d849fe0a94d9d9729c855201c9ae5db746f5"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "08a822e16cd0667d6f9b326a5dcce5f10e0f611c120b59f69590f0a4ab87f338"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "13180ee8b9a506fe5c5c5c981122d3fd"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "0832163641a712e1064203d0aff5b5e5aace1d4382bc8c5af891431d2e0d7848"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/de/man6/sl.6.gz",
+			"SPDXID": "SPDXRef-FILE-b30a390d29f6a89b5850f1a04ea25707d4d54e82",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f625887399b2004519f04ad1792f301a81169b36"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "b8dadbd06a892591d539723970a1a6e7fd03b44976c1c868ff99979c49664a2f"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "7961e044e4f541ba1e136655c347da38"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "f95f76869aacdabf56855c0882580056ee35cc0c3ad0b8c462331601077b21be"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/de.UTF-8/man6/LS.6.gz",
+			"SPDXID": "SPDXRef-FILE-fb1f2b789b94ad1b410676d09a3e3ace230f406c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f7b1d849fe0a94d9d9729c855201c9ae5db746f5"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "08a822e16cd0667d6f9b326a5dcce5f10e0f611c120b59f69590f0a4ab87f338"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "13180ee8b9a506fe5c5c5c981122d3fd"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "0832163641a712e1064203d0aff5b5e5aace1d4382bc8c5af891431d2e0d7848"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/de.UTF-8/man6/sl.6.gz",
+			"SPDXID": "SPDXRef-FILE-bf0e2b7f8ec49f96a4605676b03d5f6fc3d4f67b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f625887399b2004519f04ad1792f301a81169b36"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "b8dadbd06a892591d539723970a1a6e7fd03b44976c1c868ff99979c49664a2f"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "7961e044e4f541ba1e136655c347da38"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "f95f76869aacdabf56855c0882580056ee35cc0c3ad0b8c462331601077b21be"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/ja/man6/LS.6.gz",
+			"SPDXID": "SPDXRef-FILE-b9a45c1d953907844a12f138a9d18b35770b74d7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "716e1a2e0462574551503684f45f1134e9d7928f"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "d86a5eee95b25de8ace1410cdecba2aa9d059d6eaa44bcbd2af5d9190aa3cb31"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "c48a5a660637906e2ec0f7808cda01b9"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "2879ebc7c92b92e12173523e49a7c676f3bc10c35bd24a53e92906099df06b3b"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/ja/man6/sl.6.gz",
+			"SPDXID": "SPDXRef-FILE-e884096e726a38a74e03de4b40ab6f9655451b3f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ab485390a90667f796d7444cf16f4f1080e54e0f"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "d7ce0c109d4ad718e7fe275b60a7ae12e8dc613e6c1c881183f22e011a6fb740"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "395094bfd9d84d184083c01a6ebf25de"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "67efde081f8e6eec03ce595e51d86961ef219268d221a2644966cd29acf87cb9"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/ja.UTF-8/man6/LS.6.gz",
+			"SPDXID": "SPDXRef-FILE-2783334d5c731dec4632b3542abdfc78ffe508d2",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "716e1a2e0462574551503684f45f1134e9d7928f"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "d86a5eee95b25de8ace1410cdecba2aa9d059d6eaa44bcbd2af5d9190aa3cb31"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "c48a5a660637906e2ec0f7808cda01b9"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "2879ebc7c92b92e12173523e49a7c676f3bc10c35bd24a53e92906099df06b3b"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/ja.UTF-8/man6/sl.6.gz",
+			"SPDXID": "SPDXRef-FILE-89e1edcf42c520903393e39b1460c6403f4d1468",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ab485390a90667f796d7444cf16f4f1080e54e0f"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "d7ce0c109d4ad718e7fe275b60a7ae12e8dc613e6c1c881183f22e011a6fb740"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "395094bfd9d84d184083c01a6ebf25de"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "67efde081f8e6eec03ce595e51d86961ef219268d221a2644966cd29acf87cb9"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/man6/LS.6.gz",
+			"SPDXID": "SPDXRef-FILE-d010a101be8145c85d9728e97a273f9afdf2317e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "579923d1478dbf11728c0644f25fe733853b0395"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "b6e143d5b7af05344a2453d21dd173999193a4377192db520721ea07fdf67233"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "6897ffcb67efa690a29f59f570747eaa"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "6cd017c9f7f040413d8ca13dc2c8eaa7b3ecbdc6323308e0d2cced4f2c6435cb"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		},
+		{
+			"fileName": "/usr/share/man/man6/sl.6.gz",
+			"SPDXID": "SPDXRef-FILE-4678dbfb7c95eb0b41c55f31417e559f25b6cd55",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "dadfe8366350e86312520f510c63e4c3a5276876"
+				},
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "e369f482dded6c034cfc34a97a01a624388890c3843167ab3e09a9dad8590f2c"
+				},
+				{
+					"algorithm": "MD5",
+					"checksumValue": "0bcae78b578db074cea7edf2c977d335"
+				},
+				{
+					"algorithm": "SM3",
+					"checksumValue": "565c1c5475fd9b495046d95cb6a74a0c831bde27ffa62656857efab91a90ee97"
+				}
+			],
+			"copyrightText": "NOASSERTION"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-PACKAGE-2b002dcf5ebaf365d031276a8f5e55d923723c20",
+			"relationshipType": "DESCRIBES"
+		},
+		{
+			"spdxElementId": "SPDXRef-PACKAGE-2b002dcf5ebaf365d031276a8f5e55d923723c20",
+			"relatedSpdxElement": "SPDXRef-DEPEND-64c0ce8aa36ca6940300762504591f0523b5c437",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-PACKAGE-2b002dcf5ebaf365d031276a8f5e55d923723c20",
+			"relatedSpdxElement": "SPDXRef-DEPEND-249f0a21623370c7caf253e7e08ef2b51c29b63c",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-PACKAGE-2b002dcf5ebaf365d031276a8f5e55d923723c20",
+			"relatedSpdxElement": "SPDXRef-DEPEND-346a85226273b0c2cafe039ed1bb0d6015de05ca",
+			"relationshipType": "DEPENDS_ON"
+		}
+	]
+}

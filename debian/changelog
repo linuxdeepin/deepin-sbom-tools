@@ -1,0 +1,53 @@
+deepin-sbom-tools (0.0.8) unstable; urgency=medium
+
+  * replace sign/verify subcmds
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Thu, 27 Jun 2024 18:39:21 +0800
+
+deepin-sbom-tools (0.0.7) unstable; urgency=medium
+
+  * rename deepin-sbom-tools
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Wed, 26 Jun 2024 20:17:47 +0800
+
+deepin-sbom-tools (0.0.6) unstable; urgency=medium
+
+  * upload添加适配信息上传标识化平台
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Wed, 05 Jun 2024 21:20:48 +0800
+
+deepin-sbom-tools (0.0.5) unstable; urgency=medium
+
+  * deb-sbom-creator集成京东DID工具
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Fri, 17 May 2024 11:07:12 +0800
+
+deepin-sbom-tools (0.0.4) unstable; urgency=medium
+
+  * upload和download数据通过gzip压缩
+  * 二进制存储在bin目录
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Mon, 29 Apr 2024 16:23:10 +0800
+
+deepin-sbom-tools (0.0.3) unstable; urgency=medium
+
+  * 添加软件包标识生成\验证
+  * 更新上传的软件包字段
+  * 更新deb-sbom-creator, 取消标识化信息插入deb包.
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Tue, 23 Apr 2024 21:44:54 +0800
+
+deepin-sbom-tools (0.0.2) unstable; urgency=medium
+
+  * support validate cmdline
+  * 修改filelist为切片,保证filelist的列表顺序
+  * 支持sm3计算file
+  * add spdx Doc Relationship DESCRIBES
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Fri, 15 Mar 2024 18:18:16 +0800
+
+deepin-sbom-tools (0.0.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Tue, 05 Mar 2024 14:44:08 +0800
